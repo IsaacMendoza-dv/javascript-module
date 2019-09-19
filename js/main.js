@@ -1,11 +1,4 @@
-    var number = 126
+var fruits = "Apple, Banana, Kiwi";
+var Slic = str.slice(7,13);
 
-        if (number % 2 === 0){
-            
-            console.log('Es un numero par');
-            
-        } else {
-
-            console.log('Es un numero impar')             
-        
-        }
+console.log(Slic);
