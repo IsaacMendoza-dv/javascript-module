@@ -1,5 +1,11 @@
-const PI = 3.1416;
-var radio = 10;
-var areaCalculated = (PI * (radio * radio));
+    var number = 126
 
-console.log ('Buen día, este es el valor de circulo'+ areaCalculated);
+        if (number % 2 === 0){
+            
+            console.log('Es un numero par');
+            
+        } else {
+
+            console.log('Es un numero impar')             
+        
+        }
