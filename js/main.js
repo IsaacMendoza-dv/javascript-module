@@ -1,14 +1,5 @@
-var exchangePenToMxn = 5.81
-var pen = 2500
+const PI = 3.1416;
+var radio = 10;
+var areaCalculated = (PI * (radio * radio));
 
-var totalMxn = pen * exchangePenToMxn
-
-var exchangeMxnToUsd = 0.052
-var totalUSD = totalMxn * exchangeMxnToUsd
-
-var exchangeMxnToEur = 0.047
-var totalEur = totalMxn * exchangeMxnToEur
-
-console.log('Tengo ' + totalUSD + ' Dolares')
-
-console.log('Tengo ' + totalEur + ' Euros')
+console.log ('Buen día, este es el valor de circulo'+ areaCalculated);
