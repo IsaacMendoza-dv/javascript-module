@@ -1,4 +1,8 @@
-var fruits = "Apple, Banana, Kiwi";
-var Slic = str.slice(7,13);
+var wordToEvaluate = "panchito";
+var leng = wordToEvaluate.length;
 
-console.log(Slic);
+  if(leng>8){
+      console.log("Es mayor a ocho palabras");
+  } else {
+      console.log("Es menos a ocho palabras");
+  }
