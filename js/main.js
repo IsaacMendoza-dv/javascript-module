@@ -1,7 +1,10 @@
-var wordToEvaluate = "ingeniero";
+var number = 0;
 
-  if(wordToEvaluate.includes("ing")){
-      console.log("Existe las palabras");
-  } else {
-      console.log("No existen estas palabras en la letra");
-  }
+while (number <= 100){
+    if(number % 2 === 0){
+        console.log("Es numero par ", number)
+        number++
+    } else{
+        number++   
+    }
+}
