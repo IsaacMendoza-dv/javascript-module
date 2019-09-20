@@ -1,10 +1,7 @@
-var number = 0;
+var pets = ['dog', 'cat', 'mouse']
 
-while (number <= 100){
-    if(number % 2 === 0){
-        console.log("Es numero par ", number)
-        number++
-    } else{
-        number++   
-    }
+for( sizeArray = 0; sizeArray < pets.length; sizeArray++){
+    console.log(pets[sizeArray])
 }
+
+ 
