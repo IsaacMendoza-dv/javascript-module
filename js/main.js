@@ -1,8 +1,7 @@
-var wordToEvaluate = "panchito";
-var leng = wordToEvaluate.length;
+var wordToEvaluate = "ingeniero";
 
-  if(leng>8){
-      console.log("Es mayor a ocho palabras");
+  if(wordToEvaluate.includes("ing")){
+      console.log("Existe las palabras");
   } else {
-      console.log("Es menos a ocho palabras");
+      console.log("No existen estas palabras en la letra");
   }
