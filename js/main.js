@@ -1,4 +1,4 @@
-
+/*
 var word = "cariño";
 var numbV = 0;
 
@@ -43,4 +43,26 @@ for(let index = 0; index < empleados.length; index++){
  // console.log("El empleado " + empleado + "tiene un salario de" + empSalary)
 
 }
+*/
+
+
+function calc(function, number1, number2){
+
+  function addition(number1,number2){
+    return number1 + number2
+ }
+ 
+ function rest(number1,number2){
+   return number1 - number2;
+ }
+ 
+ function div(number1, number2){
+   return number1 / number2;
+ }
+ 
+ function times(number1,number2){
+   return number1 * number2
+ }
+}
+
 
