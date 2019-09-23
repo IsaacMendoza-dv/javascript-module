@@ -43,7 +43,7 @@ for(let index = 0; index < empleados.length; index++){
  // console.log("El empleado " + empleado + "tiene un salario de" + empSalary)
 
 }
-*/
+
 
 
 function calc(function, number1, number2){
@@ -65,4 +65,36 @@ function calc(function, number1, number2){
  }
 }
 
+*/
+//1.- Dado un array de numeros, entregar el producto total
+//Ej -> [1,2,3,4,5]
+//El resultado seria 1 * 2 * 3 * 4 * 5  
+/*
+var numbersMult = [1,2,3,4]
+function multNumb (){
+  var = multResult= numbersMult[0] * numbersMult[1] * numbersMult [2] * numbersMult [3]
+ console.log("El resultado seria " + multResult)
+} 
+multNumb()
 
+*/
+/*  
+var converAmounts = [13.02, 4]
+function conversion (){
+  for (indexAmounts= converAmounts[0]; indexAmounts < converAmounts.length; 
+    indexAmounts++){
+      converResults = indexAmounts * 0.051
+      console.log("El cambio de moneda es de  : "+converResults+ "  USD" ) 
+  }
+}  
+conversion ()
+*/
+//EJERCICIO 3
+var firstName = ['Jesus','Juan'];
+var lastName = ['Navarro Osorio','Lopez Hernandez'];
+var indexFName = firstName[0]
+var indexLName = lastName[0]
+function unionName (indexFName, indexLName){
+  console.log(firstName[indexFName]+' '+lastName[indexLName]) 
+}
+unionName (1,0)
