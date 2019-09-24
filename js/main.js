@@ -89,7 +89,7 @@ function conversion (){
 }  
 conversion ()
 */
-//EJERCICIO 3
+/*EJERCICIO 3
 var firstName = ['Jesus','Juan'];
 var lastName = ['Navarro Osorio','Lopez Hernandez'];
 var indexFName = firstName[0]
@@ -98,3 +98,32 @@ function unionName (indexFName, indexLName){
   console.log(firstName[indexFName]+' '+lastName[indexLName]) 
 }
 unionName (1,0)
+*/
+// EJERCICIO DE CAPITALIZACION 
+/*
+const capitalize = (phrase) => {
+  let phraseArray = phrase.split(' ')
+  for (let index = 0; index < phraseArray.length; index++) {
+    let firstWord = phraseArray[index][0].toUpperCase()
+    let lastWord = phraseArray[index].slice(1).toLowerCase()
+    phraseArray[index] = `${firstWord}${lastWord}`
+  }
+  return phraseArray.join(' ')
+}
+capitalize('Hola peRros')
+*/
+
+const matrixToEvaluate = [[0,0,1],[1,0,1],[0,9,1]]
+var totalnumbers = 0
+  for (let indexOnematrix = 0 ; indexOnematrix < indexOnematrix.length; indexOnematrix++ ){
+    let indexOnematrix = matrixToEvaluate[0]
+    for (let indexTwoMatrix = 0 ; indexTwoMatrix < indexOnematrix.length; indexTwoMatrix++)
+      {
+        index
+        if(indexTwoMatrix === 1){
+          totalnumbers++
+        }
+      }
+  }
+
+    
