@@ -112,7 +112,7 @@ const capitalize = (phrase) => {
 }
 capitalize('Hola peRros')
 */
-
+/*
 const matrixToEvaluate = [[0,0,1],[1,0,1],[0,9,1]]
 var totalnumbers = 0
   for (let indexOnematrix = 0 ; indexOnematrix < indexOnematrix.length; indexOnematrix++ ){
@@ -126,4 +126,24 @@ var totalnumbers = 0
       }
   }
 
-    
+  var words = ["hola","buenos","dias","señor"]
+  const pairWords = words.filter(word => word.length %2 === 0 )
+  pairWords()
+*/
+  var koders = [
+    {
+      firstName: 'Isaac',
+      lastName : 'Mendoza'
+    },
+    {
+      firstName: 'Jos',
+      lastName: 'Avalos'
+    },
+    {
+      firstName: 'Alex',
+      lastName: 'Aguilar'
+    }
+]   
+var newArray = koders.forEach(koder => {
+  for(indexArray=0; indexArray >  )
+})
