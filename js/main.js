@@ -276,13 +276,13 @@ var style = [
     width: '100px',
     backgroundColor: 'black'
   }
-]
-
-style.forEach(styleProperty => {
-
-});
-
-document.getElementsByTagName('div').style.backgroundColor
- 
-
-
+  const divsCollection = document.getElementsByTagName('div')
+  style.forEach(({ height, width, backgroundColor }, index) => {
+    let divStyle = divsCollection[index].style
+    divStyle.height = height
+    divStyle.width = width
+    divStyle.backgroundColor = backgroundColor
+  })
+  Contraer
+  
+    
