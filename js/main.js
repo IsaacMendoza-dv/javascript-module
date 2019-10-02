@@ -111,39 +111,178 @@ const capitalize = (phrase) => {
   return phraseArray.join(' ')
 }
 capitalize('Hola peRros')
-*/
-/*
-const matrixToEvaluate = [[0,0,1],[1,0,1],[0,9,1]]
-var totalnumbers = 0
-  for (let indexOnematrix = 0 ; indexOnematrix < indexOnematrix.length; indexOnematrix++ ){
-    let indexOnematrix = matrixToEvaluate[0]
-    for (let indexTwoMatrix = 0 ; indexTwoMatrix < indexOnematrix.length; indexTwoMatrix++)
+*//*
+//CONTAR EL NUMERO DE 1 DENTRO DE LOS ARRAY
+  const matrixToEvaluate = [[0,0,1],[1,0,1],[0,9,1]]
+  var totalnumbers = 0
+    for (let indexOnematrix = 0 ; indexOnematrix < indexOnematrix.length; indexOnematrix++ ){
+      for (let indexTwoMatrix = 0 ; indexTwoMatrix < matrixToEvaluate[indexOnematrix].length; indexTwoMatrix++)  
       {
-        index
-        if(indexTwoMatrix === 1){
-          totalnumbers++
+          if(indexTwoMatrix === 1){
+            totalnumbers++
+          }
         }
-      }
+    }
+  console.log(totalnumbers)
+//CONTAR EL NUMERO 1 DENTRO DEL ARRAY DE MAP
+  const matrixToEvaluate = [[0,0,1],[1,0,1],[0,9,1]]
+ total = 0
+  var totalnumbers = matrixToEvaluate.map((number, array) => 
+*/
+  //DADO UN ARRAY DEVOLVER LOS ELEMENTOS QUE EMPIECEN CON a - A
+ /* var  array =  ['Ay','amorcito','como','estas']
+
+    
+  }
+  */
+  /*
+//hola amigos => amigos hola
+var phrase = "Hola amigos"
+function invertPhrase(phrase){return(phrase.split(' ').reverse().join(' '))}
+invertPhrase(phrase)
+
+const reversePhrase = phrase => phrase.split(' ').reverse().join(' ')
+
+var phrase = "anita lava la tina"
+function checkPalindrome(phrase){
+  if(phrase === reverse(phrase){
+    console.log("Es un palindromo")
+  }
+}
+
+var phrase = "anita lava la tina";
+*//*
+var palindrome = phrase => {
+    let reversedPhrase;
+    let originalPhrase;
+    originalPhrase = phrase.split(" ").join("");  
+    reversedPhrase = originalPhrase.split("").reverse().join("");
+     
+    
+    if (reversedPhrase === originalPhrase){
+        return "Es palindromo";
+    } else {
+        return "No es palindromo";
+    }
+}
+*/
+//Dado un array indicar si la palabra tiene una longirud par o impar 
+/*
+var words = ["hola","buenos","días","señor"]
+
+const pairWords = words.filter(word => word.length &2 === 0 )
+var objKoders = [
+  {
+      firstName: "Isaac",
+      lastName: "Mendoza",
+      generation: 3
+  },
+
+  {
+      firstName: "Jos",
+      lastName: "Avalos",
+      generation: 1
+      
+  },
+
+  {
+      firstName: "Alex",
+      lastName: "Aguilar",
+      generation: 4   
+  }
+];
+objKoders.map(
+  function(koder){
+    let firstName = objKoders.firstName
+    let lastName = objKoders.lastName
+    return '${}'
   }
 
-  var words = ["hola","buenos","dias","señor"]
-  const pairWords = words.filter(word => word.length %2 === 0 )
-  pairWords()
-*/
-  var koders = [
-    {
-      firstName: 'Isaac',
-      lastName : 'Mendoza'
-    },
-    {
-      firstName: 'Jos',
-      lastName: 'Avalos'
-    },
-    {
-      firstName: 'Alex',
-      lastName: 'Aguilar'
-    }
-]   
-var newArray = koders.forEach(koder => {
-  for(indexArray=0; indexArray >  )
+  )
+/*
+var carObj = {
+  yearFabrication : 2014,
+  'moto'r : 2.0,
+  'kmTraveled' : 38,000,
+  'color' : "white",
+  'trasmisionType' : "manual",
+  'doorsNumber' : 5,
+  'fuelType' : 'gasoline',
+  price : 750,000,
+}
+*//*
+var studentsObj = [
+  {
+  'name' : 'Alex',
+    'totalAverage' : 6.1,
+    'historyAverage' : '9',
+    'spanishAverage' : '6' 
+  },
+  {'name' : 'Isaac',
+  'totalAverage' : 8.1,
+  'historyAverage' : '9',
+  'spanishAverage' : '5' },    
+
+  {
+    'name' : 'Jos',
+    'totalAverage' : 7.5,
+    'historyAverage' : '6',
+    'spanishAverage' : '10' 
+  }
+]
+
+studentsObj.forEach(
+  function(student){
+    for (studentIndex = 0; student < studentsObj.length, studentIndex ++)
+    let studentIndex = studentsObj[0]
+    let average = student['totalAverage']
+
+
+  
+  }
+)
+*//*
+DADO UNA MATRIZ CONE
+var matrixKoders = [
+  ['Isaac', 'Mendoza',5,23,7],
+  ['Mike', 'Aceves', 5, 27, 6],
+  ['Arely', 'Santiago',5,25,6],
+]
+
+matrixKoders.forEach(function Koder(firstname, lastName,generation, average){
+  this.firstname = firstname
+  this.lastName = lastName
+  this.generation = generation
+  this.average = average
+  console.log( firstname +'  '+lastName) 
 })
+*/
+var style = [
+  {
+    height: '100px',
+    width: '100px',
+    backgroundColor: 'red'
+  },
+  {
+    height: '100px',
+    width: '100px',
+    backgroundColor: 'blue'
+  }, {
+    height: '100px',
+    width: '100px',
+    backgroundColor: 'yellow'
+  }, {
+    height: '100px',
+    width: '100px',
+    backgroundColor: 'black'
+  }
+]
+
+style.forEach(styleProperty => {
+
+});
+
+document.getElementsByTagName('div').style.backgroundColor
+ 
+
+
