@@ -275,14 +275,19 @@ var style = [
     height: '100px',
     width: '100px',
     backgroundColor: 'black'
-  }
-  const divsCollection = document.getElementsByTagName('div')
-  style.forEach(({ height, width, backgroundColor }, index) => {
-    let divStyle = divsCollection[index].style
-    divStyle.height = height
-    divStyle.width = width
-    divStyle.backgroundColor = backgroundColor
-  })
-  Contraer
-  
-    
+  }]
+  // const divsCollection = document.getElementsByTagName('div')
+  // style.forEach(({ height, width, backgroundColor }, index) => {
+  //   let divStyle = divsCollection[index].style
+  //   divStyle.height = height
+  //   divStyle.width = width
+  //   divStyle.backgroundColor = backgroundColor
+  // })
+
+const divsCollection = document.getElementsByTagName('div')
+var style = ['div1','div2','div3','div4']
+style.forEach(divId, index => {
+ divsCollection[index].id = divId 
+
+});
+ 
