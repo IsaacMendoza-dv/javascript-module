@@ -247,47 +247,70 @@ var matrixKoders = [
   ['Isaac', 'Mendoza',5,23,7],
   ['Mike', 'Aceves', 5, 27, 6],
   ['Arely', 'Santiago',5,25,6],
-]
+// ]
 
-matrixKoders.forEach(function Koder(firstname, lastName,generation, average){
-  this.firstname = firstname
-  this.lastName = lastName
-  this.generation = generation
-  this.average = average
-  console.log( firstname +'  '+lastName) 
-})
-*/
+// matrixKoders.forEach(function Koder(firstname, lastName,generation, average){
+//   this.firstname = firstname
+//   this.lastName = lastName
+//   this.generation = generation
+//   this.average = average
+//   console.log( firstname +'  '+lastName) 
+// })
+// */
+// var style = [
+//   {
+//     height: '100px',
+//     width: '100px',
+//     backgroundColor: 'red'
+//   },
+//   {
+//     height: '100px',
+//     width: '100px',
+//     backgroundColor: 'blue'
+//   }, {
+//     height: '100px',
+//     width: '100px',
+//     backgroundColor: 'yellow'
+//   }, {
+//     height: '100px',
+//     width: '100px',
+//     backgroundColor: 'black'
+//   }]
+//   // const divsCollection = document.getElementsByTagName('div')
+//   // style.forEach(({ height, width, backgroundColor }, index) => {
+//   //   let divStyle = divsCollection[index].style
+//   //   divStyle.height = height
+//   //   divStyle.width = width
+//   //   divStyle.backgroundColor = backgroundColor
+//   // })
+
+// const divsCollection = document.getElementsByTagName('div')
+// var style = ['div1','div2','div3','div4']
+// style.forEach(divId, index => {
+//  divsCollection[index].id = divId
+// });
 var style = [
   {
-    height: '100px',
-    width: '100px',
-    backgroundColor: 'red'
+    tag: 'p',
+    id: 'red'
   },
   {
-    height: '100px',
-    width: '100px',
-    backgroundColor: 'blue'
-  }, {
-    height: '100px',
-    width: '100px',
-    backgroundColor: 'yellow'
-  }, {
-    height: '100px',
-    width: '100px',
-    backgroundColor: 'black'
-  }]
-  // const divsCollection = document.getElementsByTagName('div')
-  // style.forEach(({ height, width, backgroundColor }, index) => {
-  //   let divStyle = divsCollection[index].style
-  //   divStyle.height = height
-  //   divStyle.width = width
-  //   divStyle.backgroundColor = backgroundColor
-  // })
-
-const divsCollection = document.getElementsByTagName('div')
-var style = ['div1','div2','div3','div4']
-style.forEach(divId, index => {
- divsCollection[index].id = divId 
-
-});
- 
+    tag: 'p',
+    id: 'blue'
+  },
+  {
+    tag: 'p',
+    id: 'yellow'
+  },
+  {
+    tag: 'p',
+    id: 'white'
+  }
+]
+​
+​
+style.forEach( (object, index) => {
+  let createNewElement = document.createElement(style[index].tag);
+  createNewElement.id = style[index].id;
+  document.getElementById("container").appendChild(createNewElement)
+}   )
