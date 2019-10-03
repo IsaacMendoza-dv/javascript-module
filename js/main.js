@@ -288,29 +288,54 @@ var matrixKoders = [
 // var style = ['div1','div2','div3','div4']
 // style.forEach(divId, index => {
 //  divsCollection[index].id = divId
-// });
-var style = [
-  {
-    tag: 'p',
-    id: 'red'
-  },
-  {
-    tag: 'p',
-    id: 'blue'
-  },
-  {
-    tag: 'p',
-    id: 'yellow'
-  },
-  {
-    tag: 'p',
-    id: 'white'
-  }
-]
-​
-​
-style.forEach( (object, index) => {
-  let createNewElement = document.createElement(style[index].tag);
-  createNewElement.id = style[index].id;
-  document.getElementById("container").appendChild(createNewElement)
-}   )
+// // });
+// var style = [
+//   {
+//     tag: 'p',
+//     id: 'red'
+//   },
+//   {
+//     tag: 'p',
+//     id: 'blue'
+//   },
+//   {
+//     tag: 'p',
+//     id: 'yellow'
+//   },
+//   {
+//     tag: 'p',
+//     id: 'white'
+//   }
+// ]
+// ​
+// ​
+// style.forEach( (object, index) => {
+//   let createNewElement = document.createElement(style[index].tag);
+//   createNewElement.id = style[index].id;
+//   document.getElementById("container").appendChild(createNewElement)
+// }   )
+
+// var node = document.getElementById('container')
+// node.addEventListener('click', function ({ target }) {
+//   if (!target.className) {
+//     target.classList.add('active')
+//   } else {
+//     target.classList.remove('active')
+//   }
+//   console.log(target.className);
+// })
+// // node.addEventListener('click', ({ target }) => target.classList.toggle('active'))
+// var buttonAction = document.getElementById('add')
+// buttonAction.addEventListener('click', function ({target}) {
+//  var newDiv = document.createElement('div')
+//  document.body.appendChild(newDiv)
+//  console.log('Hola');
+// })
+var node = document.getElementById('container')
+var count = 0
+var x = window.setInterval(function () {
+  count++
+  node.innerText = count;
+
+},1000)
+
