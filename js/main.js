@@ -343,4 +343,24 @@ var matrixKoders = [
 // reset.addEventListener ('click', function() {
 
 // })
-console.log('hola, puta');
+// var xhttp = new XMLHttpRequest()
+// xhttp.onreadystatechange = function () {
+//   console.log(this.readyState, xhttp.status);
+//   if (this.readyState === 4 && this.status === 200) {
+//     console.log(this.response);
+//   }
+// }
+// xhttp.open("GET", "data/hello_world.json")
+// xhttp.send()
+var xhttp = new XMLHttpRequest()
+xhttp.onreadystatechange = function () {
+  if (this.readyState === 4 && this.status === 200) {
+    let objRes = JSON.parse(this.response)
+    handlerResponse(objRes)
+  }
+}
+xhttp.open('GET', "data/hello_world.json")
+xhttp.send()
+const handlerResponse = (obj) => {
+  console.log(obj)
+}
