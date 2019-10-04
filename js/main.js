@@ -331,11 +331,16 @@ var matrixKoders = [
 //  document.body.appendChild(newDiv)
 //  console.log('Hola');
 // })
-var node = document.getElementById('container')
-var count = 0
-var x = window.setInterval(function () {
-  count++
-  node.innerText = count;
 
-},1000)
+// var node = document.getElementById('container')
+// var count = 0
+// var x = window.setInterval(function count() {
+//   count++
+//   node.innerText = count;
+// },1000)
+// var cleanButton = document.getElementById('stop')
+// var resetButton = document.getElementById('reset')
+// reset.addEventListener ('click', function() {
 
+// })
+console.log('hola, puta');
